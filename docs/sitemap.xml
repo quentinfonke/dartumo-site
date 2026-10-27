@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://dartumo.com/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dartumo.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dartumo.com/en/"/>
+  </url>
+  <url>
+    <loc>https://dartumo.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dartumo.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dartumo.com/en/"/>
+  </url>
+  <url>
+    <loc>https://dartumo.com/aide/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dartumo.com/aide/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dartumo.com/en/help/"/>
+  </url>
+  <url>
+    <loc>https://dartumo.com/en/help/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dartumo.com/aide/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dartumo.com/en/help/"/>
+  </url>
+  <url>
+    <loc>https://dartumo.com/confidentialite/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dartumo.com/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dartumo.com/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://dartumo.com/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dartumo.com/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dartumo.com/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://dartumo.com/cgu/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dartumo.com/cgu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dartumo.com/en/terms/"/>
+  </url>
+  <url>
+    <loc>https://dartumo.com/en/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dartumo.com/cgu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dartumo.com/en/terms/"/>
+  </url>
+  <url>
+    <loc>https://dartumo.com/mentions-legales/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dartumo.com/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dartumo.com/en/legal-notice/"/>
+  </url>
+  <url>
+    <loc>https://dartumo.com/en/legal-notice/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dartumo.com/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dartumo.com/en/legal-notice/"/>
+  </url>
+</urlset>

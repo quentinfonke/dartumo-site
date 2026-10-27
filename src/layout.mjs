@@ -2,7 +2,7 @@
 
 const T = {
   fr: {
-    nav: { home: 'Aide', privacy: 'Confidentialité', terms: 'CGU', notice: 'Mentions légales' },
+    nav: { help: 'Aide', privacy: 'Confidentialité', terms: 'CGU', notice: 'Mentions légales' },
     switchTo: 'English',
     switchTitle: 'Read this page in English',
     toc: 'Sommaire',
@@ -12,7 +12,7 @@ const T = {
     rights: 'Tous droits réservés.',
   },
   en: {
-    nav: { home: 'Help', privacy: 'Privacy', terms: 'Terms', notice: 'Legal notice' },
+    nav: { help: 'Help', privacy: 'Privacy', terms: 'Terms', notice: 'Legal notice' },
     switchTo: 'Français',
     switchTitle: 'Lire cette page en français',
     toc: 'Contents',
