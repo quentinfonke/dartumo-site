@@ -8,10 +8,10 @@ kind: legal
 <p class="k">En bref</p>
 <ul>
 <li>Dartumo est gratuit, sans publicité, sans suivi et sans mesure d'audience.</li>
-<li>À la première ouverture, l'app crée un compte invité anonyme : un identifiant technique, sans e-mail ni mot de passe.</li>
-<li>Vos parties, vos stats et votre progression restent sur votre téléphone. Elles ne partent en ligne que si vous activez la sauvegarde avec Apple ou Google.</li>
+<li>À la première ouverture, l'app crée un compte invité anonyme : un identifiant technique, sans e-mail ni mot de passe. En ligne, il ne garde que votre pseudo.</li>
+<li>Vos parties, vos stats et votre progression restent sur votre téléphone. La version actuelle n'a ni connexion avec Apple ou Google, ni sauvegarde en ligne.</li>
 <li>La caméra compte vos fléchettes sur l'appareil : aucune image n'est enregistrée ni envoyée.</li>
-<li>Si vous l'acceptez, votre pseudo est envoyé à ElevenLabs pour que l'arbitre le dise. Rien d'autre, et vous pouvez l'éteindre dans les réglages.</li>
+<li>Si vous l'acceptez, votre pseudo et ceux des habitués que vous choisissez sont envoyés à ElevenLabs pour que l'arbitre les dise. Jamais ceux des invités, rien d'autre, et vous pouvez l'éteindre dans les réglages.</li>
 <li>Vous effacez tout vous-même, quand vous voulez : Réglages → Compte → Supprimer mon compte.</li>
 </ul>
 </div>
@@ -24,7 +24,7 @@ kind: legal
 
 <h3>2.1 Le compte invité, créé automatiquement</h3>
 <p>À la première ouverture avec du réseau, notre hébergeur Supabase attribue à l'app un identifiant technique aléatoire (un UUID) et un jeton de session, gardé sur le téléphone. Aucun e-mail, aucun mot de passe, aucun nom : cet identifiant ne dit rien de vous. Sans réseau, l'app fonctionne hors ligne, sans compte.</p>
-<p><strong>Pourquoi :</strong> faire fonctionner l'app, rattacher votre profil, permettre la sauvegarde en ligne si vous l'activez, et supprimer votre compte à votre demande. <strong>Base légale :</strong> l'exécution du contrat (les <a href="{{link:terms}}">conditions d'utilisation</a>).</p>
+<p><strong>Pourquoi :</strong> faire fonctionner l'app, rattacher votre profil et supprimer votre compte à votre demande. <strong>Base légale :</strong> l'exécution du contrat (les <a href="{{link:terms}}">conditions d'utilisation</a>).</p>
 
 <h3>2.2 Votre pseudo</h3>
 <p>L'app vous demande un pseudo à la première ouverture, que vous changez quand vous voulez dans les réglages. Elle ne demande jamais votre nom. Il est gardé sur le téléphone et, dès que l'app a un compte, enregistré dans votre profil en ligne pour vous le réafficher.</p>
@@ -32,22 +32,20 @@ kind: legal
 
 <h3>2.3 Vos parties, vos stats et votre progression</h3>
 <p>Tout ce que vous faites dans l'app est enregistré sur votre téléphone, dans l'espace privé de l'app : la progression du parcours (unités, étoiles, XP), votre série de jours, vos parties (X01 et les autres modes : scores, volées, finishs, durées), les stats que vous choisissez d'enregistrer, et vos réglages (langue, sons, vibrations, réglages des modes, rythme d'entraînement, heure du rappel, zoom de la caméra).</p>
-<p>Ces données ne quittent pas le téléphone, sauf si vous activez la sauvegarde en ligne (2.5). La sauvegarde du téléphone lui-même (iCloud ou Google) peut en contenir une copie, selon vos réglages système.</p>
+<p>Ces données ne quittent pas le téléphone : la version actuelle n'a pas de sauvegarde en ligne (2.5). La sauvegarde du téléphone lui-même (iCloud) peut en contenir une copie, selon vos réglages système.</p>
 <p><strong>Pourquoi :</strong> faire fonctionner l'app. <strong>Base légale :</strong> l'exécution du contrat.</p>
 
 <h3>2.4 Les habitués : les personnes avec qui vous jouez</h3>
-<p>Dans Jouer, vous pouvez enregistrer des « habitués » : un pseudo, puis leurs scores et leurs stats de parties. Ces informations sont sur votre téléphone, et uniquement là (sauf sauvegarde en ligne, 2.5). Personne d'autre ne les voit. Vous les renommez ou les supprimez quand vous voulez, dans Stats ou dans les réglages.</p>
+<p>Dans Jouer, vous pouvez enregistrer des « habitués » : un pseudo, puis leurs scores et leurs stats de parties. Ces informations sont sur votre téléphone, et uniquement là. Personne d'autre ne les voit. Vous les renommez ou les supprimez quand vous voulez, dans Stats ou dans les réglages.</p>
 <p>C'est vous qui les saisissez : faites-le avec l'accord des personnes concernées.</p>
 <p><strong>Pourquoi :</strong> tenir le score et les stats entre amis. <strong>Base légale :</strong> notre intérêt légitime, et le vôtre, à faire fonctionner une partie à plusieurs.</p>
 
-<h3>2.5 La sauvegarde en ligne, avec Apple ou Google (facultative)</h3>
-<p>Quand cette option est proposée et que vous l'activez, l'app vous connecte avec votre compte Apple ou Google. Nous recevons alors l'identifiant de ce compte, l'adresse e-mail qu'Apple ou Google nous transmet (Apple peut fournir une adresse relais qui masque la vôtre). L'app ne demande pas votre nom ; Google le joint toutefois à sa réponse de connexion, et notre hébergeur peut le garder avec votre compte, sans que l'app ne s'en serve ni ne l'affiche. Votre compte invité devient un compte permanent.</p>
-<p>À partir de là, une copie des données décrites en 2.3 et 2.4 est envoyée sur nos serveurs après chaque changement, pour que vous retrouviez votre progression sur un autre appareil. Les parties en cours ne sont pas synchronisées.</p>
-<p>Apple et Google traitent de leur côté votre connexion selon leurs propres politiques (<a href="https://www.apple.com/legal/privacy/">Apple</a>, <a href="https://policies.google.com/privacy">Google</a>). Nous ne recevons rien d'autre que ce qui est listé ci-dessus.</p>
-<p><strong>Pourquoi :</strong> retrouver votre progression partout. <strong>Base légale :</strong> votre consentement, donné en activant l'option. « Se déconnecter » laisse la sauvegarde sur votre compte pour une prochaine connexion ; « Supprimer mon compte » l'efface.</p>
+<h3>2.5 La sauvegarde en ligne (pas encore disponible)</h3>
+<p>La version actuelle de l'app ne propose ni connexion avec un compte Apple ou Google, ni sauvegarde en ligne : vos parties, vos stats et votre progression restent sur le téléphone, et désinstaller l'app les efface. Une sauvegarde avec Apple ou Google est prévue dans une prochaine version ; cette politique sera mise à jour avant, pour dire ce qu'elle envoie et à qui.</p>
 
 <h3>2.6 La caméra (facultative)</h3>
 <p>Si vous activez le comptage par caméra, le téléphone filme la cible et un modèle de détection embarqué dans l'app repère les fléchettes, image par image, sur l'appareil. Aucune image ni vidéo n'est enregistrée, ni envoyée à nous ou à qui que ce soit. Vous retirez l'autorisation à tout moment dans les réglages du téléphone.</p>
+<p>Le modèle de détection est chiffré. La première fois que vous utilisez la caméra, il faut du réseau : le système télécharge auprès d'Apple la clé qui le déchiffre (service de chiffrement des modèles Core ML d'Apple). Cette requête ne contient aucune image ni donnée personnelle, au-delà de ce que transmet toute connexion réseau (l'adresse IP de l'appareil) ; Apple la traite selon sa propre <a href="https://www.apple.com/legal/privacy/">politique de confidentialité</a>.</p>
 <p><strong>Base légale :</strong> votre consentement, donné par l'autorisation système.</p>
 
 <h3>2.7 Le rappel quotidien (facultatif)</h3>
@@ -55,7 +53,7 @@ kind: legal
 <p><strong>Base légale :</strong> votre consentement, donné par l'autorisation système.</p>
 
 <h3>2.8 La voix des pseudos (facultative)</h3>
-<p>L'arbitre de l'app peut dire votre pseudo, et celui des habitués pour lesquels vous l'avez demandé, dans les matchs de X01. Pour cela, le pseudo est envoyé à nos serveurs (Supabase, 4), qui le transmettent à <strong>ElevenLabs</strong>, un service de synthèse vocale, pour en faire un court fichier audio. L'app vous le demande avant tout envoi, à la première ouverture ou dans les réglages, et n'envoie rien sans votre accord.</p>
+<p>L'arbitre de l'app peut dire votre pseudo, et celui des habitués pour lesquels vous l'avez demandé, dans les matchs de X01. Pour cela, le pseudo est envoyé à nos serveurs (Supabase, 4), qui le transmettent à <strong>ElevenLabs</strong>, un service de synthèse vocale, pour en faire un court fichier audio. L'app vous le demande avant tout envoi, à la première ouverture ou dans les réglages, et n'envoie rien sans votre accord. Les pseudos des invités (les joueurs d'une partie qui n'ont pas de fiche d'habitué) ne sont jamais envoyés : l'arbitre les appelle « Invité 2 », « Invité 3 ».</p>
 <p>ElevenLabs ne reçoit que le pseudo à dire, depuis nos serveurs : ni votre identifiant, ni votre adresse IP, ni aucune autre donnée. Le fichier audio revient sur le téléphone, où il est gardé. Sur nos serveurs, le pseudo et son fichier audio sont gardés en cache commun : un même pseudo n'est généré qu'une fois pour tous les joueurs. Le lien entre ce pseudo et votre compte, qui sert à limiter le nombre de demandes, est effacé quand vous supprimez votre compte.</p>
 <p><strong>Pourquoi :</strong> que l'arbitre vous annonce par votre pseudo. <strong>Base légale :</strong> votre consentement. Vous le retirez à tout moment dans Réglages → Jeu → « Pseudos dits par l'arbitre » : plus aucun pseudo n'est envoyé, et les fichiers audio du téléphone sont effacés.</p>
 
@@ -79,8 +77,8 @@ kind: legal
 </ul>
 
 <h2 id="acces">4. Qui a accès à vos données</h2>
-<p><strong>Supabase</strong> (Supabase Pte. Ltd, Singapour) héberge le compte, le profil et la sauvegarde en ligne, en tant que sous-traitant, sur des serveurs Amazon Web Services situés à Paris (région eu-west-3). Supabase est lié par un accord de traitement des données et ne peut utiliser ces données que pour nous fournir l'hébergement.</p>
-<p><strong>Apple</strong> et <strong>Google</strong> n'interviennent que si vous choisissez de vous connecter avec eux (2.5). L'App Store et Google Play, qui distribuent l'app, collectent par ailleurs leurs propres données (téléchargements, avis, plantages agrégés) selon leurs politiques ; nous n'en voyons que des statistiques anonymes.</p>
+<p><strong>Supabase</strong> (Supabase Pte. Ltd, Singapour) héberge le compte, le profil et le cache des voix des pseudos (2.8), en tant que sous-traitant, sur des serveurs Amazon Web Services situés à Paris (région eu-west-3). Supabase est lié par un accord de traitement des données et ne peut utiliser ces données que pour nous fournir l'hébergement.</p>
+<p><strong>Apple</strong> fournit, à la première utilisation de la caméra, la clé qui déchiffre le modèle de détection (2.6). L'App Store, qui distribue l'app, collecte par ailleurs ses propres données (téléchargements, avis, plantages agrégés) selon leurs politiques ; nous n'en voyons que des statistiques anonymes.</p>
 <p><strong>ElevenLabs</strong> (Eleven Labs, Inc., États-Unis) reçoit, seulement si vous l'avez accepté, les pseudos que l'arbitre doit dire (2.8), en tant que sous-traitant, et les traite selon sa propre <a href="https://elevenlabs.io/privacy-policy">politique de confidentialité</a>.</p>
 <p>Personne d'autre. Nous ne communiquerions vos données qu'en cas d'obligation légale, sur demande d'une autorité habilitée.</p>
 <p><strong>Transferts hors de l'Union européenne :</strong> vos données sont hébergées en France. Supabase, société établie à Singapour, peut y accéder depuis l'étranger pour l'exploitation et le support, dans le cadre des clauses contractuelles types adoptées par la Commission européenne. Les pseudos dits par l'arbitre (2.8) sont traités par ElevenLabs aux États-Unis, au titre du cadre de protection des données UE–États-Unis (Data Privacy Framework) auquel ElevenLabs a adhéré, ou des clauses contractuelles types.</p>
@@ -88,7 +86,7 @@ kind: legal
 <h2 id="duree">5. Combien de temps</h2>
 <table>
 <tr><th>Données</th><th>Durée</th></tr>
-<tr><td>Compte, profil, sauvegarde en ligne</td><td>Jusqu'à la suppression du compte depuis l'app. L'effacement est immédiat et définitif.</td></tr>
+<tr><td>Compte et profil</td><td>Jusqu'à la suppression du compte depuis l'app. L'effacement est immédiat et définitif.</td></tr>
 <tr><td>Données sur le téléphone</td><td>Jusqu'à ce que vous les effaciez (« Recommencer le parcours », « Supprimer mon compte ») ou que vous désinstalliez l'app.</td></tr>
 <tr><td>Voix des pseudos</td><td>Sur le téléphone : jusqu'au retrait de votre accord, à la suppression du compte ou à la désinstallation. Sur nos serveurs : le pseudo et son fichier audio restent dans le cache commun, sans lien avec votre compte une fois celui-ci supprimé. Chez ElevenLabs : selon sa politique.</td></tr>
 <tr><td>Journaux techniques de l'hébergeur</td><td>Quelques jours.</td></tr>
@@ -101,7 +99,7 @@ kind: legal
 <p>Pour le reste, écrivez-nous à {{emailLink}} ; nous répondons sous un mois. Si vous estimez que vos droits ne sont pas respectés, vous pouvez saisir la CNIL (<a href="https://www.cnil.fr">cnil.fr</a>).</p>
 
 <h2 id="mineurs">7. Les mineurs</h2>
-<p>Dartumo convient à tous les âges et ne demande ni e-mail, ni date de naissance, ni photo. Si vous avez moins de 15 ans, l'accord d'un parent est nécessaire pour activer la sauvegarde en ligne avec Apple ou Google ou la voix des pseudos. Un parent qui souhaite faire effacer les données d'un enfant peut nous écrire.</p>
+<p>Dartumo convient à tous les âges et ne demande ni e-mail, ni date de naissance, ni photo. Si vous avez moins de 15 ans, l'accord d'un parent est nécessaire pour activer la voix des pseudos. Un parent qui souhaite faire effacer les données d'un enfant peut nous écrire.</p>
 
 <h2 id="securite">8. Sécurité</h2>
 <p>Les échanges entre l'app et nos serveurs sont chiffrés (HTTPS). Sur le serveur, chaque compte ne peut lire et écrire que ses propres données (règles d'accès ligne par ligne) ; l'app n'embarque aucune clé secrète. Sur le téléphone, les données sont dans l'espace privé de l'app, protégé par le système.</p>

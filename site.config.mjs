@@ -24,7 +24,7 @@ export default {
    */
   baseUrl: 'https://dartumo.com/',
   /** La date affichée en tête des documents légaux. */
-  updated: { fr: '27 octobre 2026', en: 'October 27, 2026' },
+  updated: { fr: '29 octobre 2026', en: 'October 29, 2026' },
   /** L'année du copyright, en pied de page. */
   year: '2026',
 };

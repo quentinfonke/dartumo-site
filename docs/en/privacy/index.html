@@ -32,17 +32,17 @@
       <p class="tag">Privacy</p>
       <h1>Privacy Policy</h1>
       <p class="lead">What Dartumo knows about you, where it goes, and how to erase it. The short version first, then the details.</p>
-      <p class="sticker">Last updated October 27, 2026</p>
+      <p class="sticker">Last updated October 29, 2026</p>
     </section>
     <nav class="toc box" aria-label="Contents"><p class="k">Contents</p><ol><li><a href="#controller">1. Who is responsible</a></li><li><a href="#data">2. What data we process, and why</a></li><li><a href="#not">3. What we do not do</a></li><li><a href="#access">4. Who has access to your data</a></li><li><a href="#retention">5. How long</a></li><li><a href="#rights">6. Your rights</a></li><li><a href="#children">7. Children</a></li><li><a href="#security">8. Security</a></li><li><a href="#website">9. This website</a></li><li><a href="#changes">10. Changes</a></li><li><a href="#contact">11. Contact</a></li></ol></nav>
     <article class="doc box"><div class="brief box sky">
 <p class="k">In short</p>
 <ul>
 <li>Dartumo is free, with no ads, no tracking and no analytics.</li>
-<li>On first launch, the app creates an anonymous guest account: a technical identifier, with no email and no password.</li>
-<li>Your games, stats and progress stay on your phone. They only go online if you turn on cloud save with Apple or Google.</li>
+<li>On first launch, the app creates an anonymous guest account: a technical identifier, with no email and no password. Online, it only holds your nickname.</li>
+<li>Your games, stats and progress stay on your phone. The current version has no Apple or Google sign-in and no cloud save.</li>
 <li>The camera counts your darts on the device: no image is ever stored or sent.</li>
-<li>If you agree, your nickname is sent to ElevenLabs so the referee can say it. Nothing else, and you can turn it off in Settings.</li>
+<li>If you agree, your nickname and those of the regulars you choose are sent to ElevenLabs so the referee can say them. Never guests' nicknames, nothing else, and you can turn it off in Settings.</li>
 <li>You can erase everything yourself, at any time: Settings → Account → Delete my account.</li>
 </ul>
 </div>
@@ -55,7 +55,7 @@
 
 <h3>2.1 The guest account, created automatically</h3>
 <p>On first launch with a network connection, our host Supabase assigns the app a random technical identifier (a UUID) and a session token, kept on the phone. No email, no password, no name: this identifier says nothing about you. Without a network, the app works offline, with no account.</p>
-<p><strong>Why:</strong> to run the app, attach your profile, allow cloud save if you turn it on, and delete your account on request. <strong>Legal basis:</strong> performance of the contract (the <a href="../../en/terms/">terms of use</a>).</p>
+<p><strong>Why:</strong> to run the app, attach your profile and delete your account on request. <strong>Legal basis:</strong> performance of the contract (the <a href="../../en/terms/">terms of use</a>).</p>
 
 <h3>2.2 Your nickname</h3>
 <p>The app asks for a nickname on first launch, which you can change at any time in Settings. It never asks for your name. It is kept on the phone and, as soon as the app has an account, stored in your online profile so it can be shown back to you.</p>
@@ -63,22 +63,20 @@
 
 <h3>2.3 Your games, stats and progress</h3>
 <p>Everything you do in the app is recorded on your phone, in the app's private storage: your progress on the path (units, stars, XP), your day streak, your games (X01 and the other modes: scores, visits, checkouts, durations), the stats you choose to record, and your settings (language, sounds, vibrations, mode settings, training pace, reminder time, camera zoom).</p>
-<p>This data does not leave the phone unless you turn on cloud save (2.5). Your phone's own backup (iCloud or Google) may hold a copy, depending on your system settings.</p>
+<p>This data does not leave the phone: the current version has no cloud save (2.5). Your phone's own backup (iCloud) may hold a copy, depending on your system settings.</p>
 <p><strong>Why:</strong> to run the app. <strong>Legal basis:</strong> performance of the contract.</p>
 
 <h3>2.4 Regulars: the people you play with</h3>
-<p>In Play, you can save "regulars": a nickname, then their scores and game stats. This information is on your phone, and only there (unless cloud save is on, 2.5). Nobody else sees it. You can rename or delete a regular at any time, in Stats or in Settings.</p>
+<p>In Play, you can save "regulars": a nickname, then their scores and game stats. This information is on your phone, and only there. Nobody else sees it. You can rename or delete a regular at any time, in Stats or in Settings.</p>
 <p>You enter these names yourself: do so with the agreement of the people concerned.</p>
 <p><strong>Why:</strong> to keep score and stats among friends. <strong>Legal basis:</strong> our legitimate interest, and yours, in running a multiplayer game.</p>
 
-<h3>2.5 Cloud save, with Apple or Google (optional)</h3>
-<p>When this option is offered and you turn it on, the app signs you in with your Apple or Google account. We then receive that account's identifier, the email address Apple or Google passes on to us (Apple may provide a relay address that hides yours). The app does not ask for your name; Google does include it in its sign-in response, and our host may keep it with your account, without the app using or displaying it. Your guest account becomes a permanent account.</p>
-<p>From then on, a copy of the data described in 2.3 and 2.4 is sent to our servers after each change, so you can find your progress on another device. Games in progress are not synced.</p>
-<p>Apple and Google process your sign-in on their side under their own policies (<a href="https://www.apple.com/legal/privacy/">Apple</a>, <a href="https://policies.google.com/privacy">Google</a>). We receive nothing beyond what is listed above.</p>
-<p><strong>Why:</strong> to find your progress anywhere. <strong>Legal basis:</strong> your consent, given when you turn the option on. "Sign out" leaves the save on your account for a later sign-in; "Delete my account" erases it.</p>
+<h3>2.5 Cloud save (not available yet)</h3>
+<p>The current version of the app offers no sign-in with an Apple or Google account and no cloud save: your games, stats and progress stay on the phone, and uninstalling the app erases them. A backup with Apple or Google is planned for a future version; this policy will be updated beforehand to say what it sends and to whom.</p>
 
 <h3>2.6 The camera (optional)</h3>
 <p>If you turn on camera scoring, the phone films the board and a detection model embedded in the app spots the darts, frame by frame, on the device. No image or video is stored, or sent to us or to anyone. You can withdraw the permission at any time in your phone's settings.</p>
+<p>The detection model is encrypted. The first time you use the camera, a network connection is needed: the system downloads from Apple the key that decrypts it (Apple's Core ML model encryption service). This request contains no image and no personal data, beyond what any network connection carries (the device's IP address); Apple handles it under its own <a href="https://www.apple.com/legal/privacy/">privacy policy</a>.</p>
 <p><strong>Legal basis:</strong> your consent, given through the system permission.</p>
 
 <h3>2.7 The daily reminder (optional)</h3>
@@ -86,7 +84,7 @@
 <p><strong>Legal basis:</strong> your consent, given through the system permission.</p>
 
 <h3>2.8 Nicknames called by the referee (optional)</h3>
-<p>The app's referee can say your nickname, and the nicknames of the regulars you asked for, in X01 matches. To do so, the nickname is sent to our servers (Supabase, 4), which pass it on to <strong>ElevenLabs</strong>, a text-to-speech service, to make a short audio file. The app asks you before anything is sent, on first launch or in Settings, and sends nothing without your agreement.</p>
+<p>The app's referee can say your nickname, and the nicknames of the regulars you asked for, in X01 matches. To do so, the nickname is sent to our servers (Supabase, 4), which pass it on to <strong>ElevenLabs</strong>, a text-to-speech service, to make a short audio file. The app asks you before anything is sent, on first launch or in Settings, and sends nothing without your agreement. Guests' nicknames (players in a game who have no regular's card) are never sent: the referee calls them "Guest 2", "Guest 3".</p>
 <p>ElevenLabs only receives the nickname to be said, from our servers: not your identifier, not your IP address, no other data. The audio file comes back to the phone, where it is kept. On our servers, the nickname and its audio file are kept in a shared cache: the same nickname is only generated once for all players. The link between that nickname and your account, used to limit the number of requests, is erased when you delete your account.</p>
 <p><strong>Why:</strong> so the referee can call you by your nickname. <strong>Legal basis:</strong> your consent. You can withdraw it at any time in Settings → Game → "Nicknames called by the referee": no nickname is sent anymore, and the audio files on the phone are deleted.</p>
 
@@ -110,8 +108,8 @@
 </ul>
 
 <h2 id="access">4. Who has access to your data</h2>
-<p><strong>Supabase</strong> (Supabase Pte. Ltd, Singapore) hosts the account, the profile and the cloud save as our processor, on Amazon Web Services servers located in Paris (eu-west-3 region). Supabase is bound by a data processing agreement and may only use this data to provide us with hosting.</p>
-<p><strong>Apple</strong> and <strong>Google</strong> are only involved if you choose to sign in with them (2.5). The App Store and Google Play, which distribute the app, also collect their own data (downloads, reviews, aggregated crashes) under their policies; we only see anonymous statistics.</p>
+<p><strong>Supabase</strong> (Supabase Pte. Ltd, Singapore) hosts the account, the profile and the cache of nicknames called by the referee (2.8) as our processor, on Amazon Web Services servers located in Paris (eu-west-3 region). Supabase is bound by a data processing agreement and may only use this data to provide us with hosting.</p>
+<p><strong>Apple</strong> provides, the first time you use the camera, the key that decrypts the detection model (2.6). The App Store, which distributes the app, also collects its own data (downloads, reviews, aggregated crashes) under their policies; we only see anonymous statistics.</p>
 <p><strong>ElevenLabs</strong> (Eleven Labs, Inc., United States) receives, only if you agreed, the nicknames the referee has to say (2.8), as our processor, and handles them under its own <a href="https://elevenlabs.io/privacy-policy">privacy policy</a>.</p>
 <p>Nobody else. We would only disclose your data under a legal obligation, at the request of a competent authority.</p>
 <p><strong>Transfers outside the European Union:</strong> your data is hosted in France. Supabase, a company based in Singapore, may access it from abroad for operations and support, under the standard contractual clauses adopted by the European Commission. Nicknames called by the referee (2.8) are processed by ElevenLabs in the United States, under the EU–US Data Privacy Framework, which ElevenLabs has joined, or the standard contractual clauses.</p>
@@ -119,7 +117,7 @@
 <h2 id="retention">5. How long</h2>
 <table>
 <tr><th>Data</th><th>Retention</th></tr>
-<tr><td>Account, profile, cloud save</td><td>Until you delete the account from the app. Erasure is immediate and permanent.</td></tr>
+<tr><td>Account and profile</td><td>Until you delete the account from the app. Erasure is immediate and permanent.</td></tr>
 <tr><td>Data on the phone</td><td>Until you erase it ("Restart the path", "Delete my account") or uninstall the app.</td></tr>
 <tr><td>Nicknames called by the referee</td><td>On the phone: until you withdraw your agreement, delete the account or uninstall the app. On our servers: the nickname and its audio file stay in the shared cache, with no link to your account once it is deleted. At ElevenLabs: under its policy.</td></tr>
 <tr><td>Host's technical logs</td><td>A few days.</td></tr>
@@ -132,7 +130,7 @@
 <p>For anything else, write to <a href="mailto:contact@dartumo.com">contact@dartumo.com</a>; we reply within one month. If you believe your rights are not respected, you can lodge a complaint with the CNIL, the French data protection authority (<a href="https://www.cnil.fr/en">cnil.fr</a>), or with the authority of your own country.</p>
 
 <h2 id="children">7. Children</h2>
-<p>Dartumo is suitable for all ages and asks for no email, date of birth or photo. If you are under 15, a parent's agreement is required to turn on cloud save with Apple or Google or nicknames called by the referee. A parent who wishes to have a child's data erased can write to us.</p>
+<p>Dartumo is suitable for all ages and asks for no email, date of birth or photo. If you are under 15, a parent's agreement is required to turn on nicknames called by the referee. A parent who wishes to have a child's data erased can write to us.</p>
 
 <h2 id="security">8. Security</h2>
 <p>Exchanges between the app and our servers are encrypted (HTTPS). On the server, each account can only read and write its own data (row-level access rules); the app embeds no secret key. On the phone, data lives in the app's private storage, protected by the system.</p>
