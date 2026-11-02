@@ -90,8 +90,9 @@
 
 <h3>2.9 Les données techniques</h3>
 <p>Comme tout service en ligne, notre hébergeur tient des journaux techniques des requêtes de l'app (adresse IP, date, type de requête) pour la sécurité et le bon fonctionnement du service. Ils sont conservés quelques jours.</p>
-<p>L'app ne contient aucun outil de mesure d'audience, aucun rapport de plantage, aucun identifiant publicitaire.</p>
-<p><strong>Base légale :</strong> notre intérêt légitime à sécuriser le service.</p>
+<p>Pour recevoir les corrections sans repasser par l'App Store, l'app interroge au lancement le service de mises à jour d'Expo (EAS Update). Elle lui envoie un identifiant aléatoire propre à cette installation (créé par l'app, sans lien avec votre compte ni avec votre pseudo), la version de l'app et le système, et, si l'app s'est arrêtée brutalement au lancement précédent, le message de cette erreur (sans aucune donnée de jeu), pour ne pas vous renvoyer une version qui plante.</p>
+<p>L'app ne contient aucun outil de mesure d'audience, aucun identifiant publicitaire, et aucun autre rapport de plantage.</p>
+<p><strong>Base légale :</strong> notre intérêt légitime à sécuriser le service et à le corriger.</p>
 
 <h3>2.10 Quand vous nous écrivez</h3>
 <p>Si vous nous contactez, nous recevons votre adresse e-mail et le contenu de votre message. Le bouton « Nous écrire » de l'app pré-remplit la version de l'app, celle du système et l'identifiant de votre compte, pour nous aider à comprendre le problème ; vous pouvez les effacer avant d'envoyer.</p>
@@ -111,8 +112,9 @@
 <p><strong>Supabase</strong> (Supabase Pte. Ltd, Singapour) héberge le compte, le profil et le cache des voix des pseudos (2.8), en tant que sous-traitant, sur des serveurs Amazon Web Services situés à Paris (région eu-west-3). Supabase est lié par un accord de traitement des données et ne peut utiliser ces données que pour nous fournir l'hébergement.</p>
 <p><strong>Apple</strong> fournit, à la première utilisation de la caméra, la clé qui déchiffre le modèle de détection (2.6). L'App Store, qui distribue l'app, collecte par ailleurs ses propres données (téléchargements, avis, plantages agrégés) selon leurs politiques ; nous n'en voyons que des statistiques anonymes.</p>
 <p><strong>ElevenLabs</strong> (Eleven Labs, Inc., États-Unis) reçoit, seulement si vous l'avez accepté, les pseudos que l'arbitre doit dire (2.8), en tant que sous-traitant, et les traite selon sa propre <a href="https://elevenlabs.io/privacy-policy">politique de confidentialité</a>.</p>
+<p><strong>Expo</strong> (650 Industries, Inc., États-Unis) fournit le service de mises à jour de l'app (2.9) et reçoit à ce titre l'identifiant d'installation, la version de l'app et, après un arrêt brutal, le message d'erreur ; il les traite selon sa propre <a href="https://expo.dev/privacy">politique de confidentialité</a>.</p>
 <p>Personne d'autre. Nous ne communiquerions vos données qu'en cas d'obligation légale, sur demande d'une autorité habilitée.</p>
-<p><strong>Transferts hors de l'Union européenne :</strong> vos données sont hébergées en France. Supabase, société établie à Singapour, peut y accéder depuis l'étranger pour l'exploitation et le support, dans le cadre des clauses contractuelles types adoptées par la Commission européenne. Les pseudos dits par l'arbitre (2.8) sont traités par ElevenLabs aux États-Unis, au titre du cadre de protection des données UE–États-Unis (Data Privacy Framework) auquel ElevenLabs a adhéré, ou des clauses contractuelles types.</p>
+<p><strong>Transferts hors de l'Union européenne :</strong> vos données sont hébergées en France. Supabase, société établie à Singapour, peut y accéder depuis l'étranger pour l'exploitation et le support, dans le cadre des clauses contractuelles types adoptées par la Commission européenne. Les pseudos dits par l'arbitre (2.8) sont traités par ElevenLabs aux États-Unis, au titre du cadre de protection des données UE–États-Unis (Data Privacy Framework) auquel ElevenLabs a adhéré, ou des clauses contractuelles types. Les données du service de mises à jour (2.9) sont traitées par Expo aux États-Unis, au titre du même cadre, auquel Expo a adhéré.</p>
 
 <h2 id="duree">5. Combien de temps</h2>
 <table>
@@ -121,6 +123,7 @@
 <tr><td>Données sur le téléphone</td><td>Jusqu'à ce que vous les effaciez (« Recommencer le parcours », « Supprimer mon compte ») ou que vous désinstalliez l'app.</td></tr>
 <tr><td>Voix des pseudos</td><td>Sur le téléphone : jusqu'au retrait de votre accord, à la suppression du compte ou à la désinstallation. Sur nos serveurs : le pseudo et son fichier audio restent dans le cache commun, sans lien avec votre compte une fois celui-ci supprimé. Chez ElevenLabs : selon sa politique.</td></tr>
 <tr><td>Journaux techniques de l'hébergeur</td><td>Quelques jours.</td></tr>
+<tr><td>Service de mises à jour (Expo)</td><td>Selon la politique d'Expo, le temps nécessaire au service.</td></tr>
 <tr><td>Échanges par e-mail</td><td>Jusqu'à un an après la réponse, puis supprimés.</td></tr>
 </table>
 
